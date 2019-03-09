@@ -1,5 +1,5 @@
 # materializecss-rtl-plugin
-a plugin  to support trl layout for materializecss
+a plugin  to support rtl  layout for materializecss
 
 
  
