@@ -622,4 +622,16 @@
 
 /*#endregion */
 
+/*Region select*/
+
+.dropdown-content li {
+    
+    text-align: right !important;
+}
+ul:not(.browser-default) {
+    padding-right: 0 !important;
+
+}
+/*endregion*/
+
 
