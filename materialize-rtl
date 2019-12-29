@@ -7,12 +7,37 @@
  *      Please visit http://opensource.org/licenses/MIT for more information
      note:  you can remove this lines and enjoy it !
 */
+*{
+	direction:rtl;
+}
 .row .col {
     float: right;
 }
+nav ul li {
+    float: right;
+}
+nav .sidenav-trigger {
+	float: right;
+}
+.sidenav.right-aligned {
+	right: -56px;
+}
+.dropdown-content li {
+    text-align: right;
+    margin-right:-20px;
+}
+    .dropdown-content li > a, .dropdown-content li > span {
+       
+        padding: 14px;
+    }
 
-/*#region Offset */
-    .row .col.offset-s1 {
+	@media only screen and (min-width: 993px) {
+		nav a.sidenav-trigger {
+			display: block;
+		}
+	}
+	/*#region Offset */
+	.row .col.offset-s1 {
         margin-right: 8.3333333333%;
     }
 
@@ -622,22 +647,9 @@
 
 /*#endregion */
 
-/*Region select*/
 
-.dropdown-content li {
-    
-    text-align: right !important;
-}
-ul:not(.browser-default) {
-    padding-right: 0 !important;
 
-}
 
-.select-wrapper input.select-dropdown {
-    
-    padding-right: 24px;
-  
-}
-/*endregion*/
+
 
 
